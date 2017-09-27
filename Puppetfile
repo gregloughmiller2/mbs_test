@@ -82,3 +82,8 @@ mod 'demo_cis',
 mod 'rgbank',
   :git => 'https://github.com/ipcrm/puppetlabs-rgbank.git',
   :ref => 'master'
+mod 'tse_admins',
+  :git => 'git@github.com:puppetlabs/tse-module-tse_admins.git'
+mod 'tse_facts',
+  :git => 'git@github.com:puppetlabs/tse-module-tse_facts.git',
+  :ref => '0.3.0'
