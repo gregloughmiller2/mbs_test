@@ -84,5 +84,5 @@ mod 'rgbank',
   :ref => 'master'
 
 mod 'tse_facts',
-  :git => 'https://github.com/puppetlabs/tse-module-tse_facts.git',
-  :ref => '0.3.0'
+  :git => 'https://github.com/gregloughmiller2/tse-custom-facts.git',
+  :ref => 'master'
