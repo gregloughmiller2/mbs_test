@@ -5,6 +5,7 @@ class profile::profile::westrock {
 
   class { selinux:
   mode => 'disabled',
+  }
 }
 
 
