@@ -83,6 +83,6 @@ mod 'rgbank',
   :git => 'https://github.com/ipcrm/puppetlabs-rgbank.git',
   :ref => 'master'
 
-mod 'tse_facts',
+mod 'custom_facts',
   :git => 'https://github.com/gregloughmiller2/example-custom-facts.git',
   :ref => 'master'
