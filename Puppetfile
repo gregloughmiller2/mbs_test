@@ -86,6 +86,6 @@ mod 'rgbank',
 #
 #
 mod 'tse_facts',
-  :git => 'git@github.com:gregloughmiller2/tse_facts.git',
+  :git => 'https://github.com/gregloughmiller2/tse_facts.git',
   :ref => 'master'
 
