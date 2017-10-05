@@ -84,7 +84,4 @@ mod 'rgbank',
   :git => 'https://github.com/ipcrm/puppetlabs-rgbank.git',
   :ref => 'master'
 
-mod 'customfacts',
-  :git => 'https://github.com/gregloughmiller2/example-custom-facts.git',
-  :ref => '6e760c7'
 
