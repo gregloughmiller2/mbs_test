@@ -84,6 +84,10 @@ mod 'rgbank',
   :git => 'https://github.com/ipcrm/puppetlabs-rgbank.git',
   :ref => 'master'
 
-mod 'tse_facts',
-  :git => 'https://github.com/gregloughmiller2/tse-custom-facts.git',
+mod 'custom_facts',
+  :git => 'https://github.com/gregloughmiller2/example-custom-facts.git',
   :ref => 'master'
+
+mod 'westrock',
+  :git => 'https://github.com/gregloughmiller2/westrock.git',
+  :ref => 'production'
