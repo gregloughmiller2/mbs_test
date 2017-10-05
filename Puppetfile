@@ -87,7 +87,3 @@ mod 'rgbank',
 mod 'custom_facts',
   :git => 'https://github.com/gregloughmiller2/example-custom-facts.git',
   :ref => 'master'
-
-mod 'westrock',
-  :git => 'https://github.com/gregloughmiller2/westrock.git',
-  :ref => 'production'
