@@ -15,7 +15,7 @@ class profile::platform::baseline (
   # OS Specific
   case $::kernel {
     'windows': {
-      include ::profile::platform::baseline::windows
+      include ::profile::platform::baseline::westrock
     }
     'Linux':   {
       include ::profile::platform::baseline::linux
