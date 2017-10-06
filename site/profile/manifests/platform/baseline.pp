@@ -8,17 +8,10 @@ class profile::platform::baseline (
     servers => $timeservers,
   }
 
-  class {'::profile::puppet::orch_agent':
-    ensure => $orch_agent,
-  }
-
   # OS Specific
   case $::kernel {
     'windows': {
       include ::profile::platform::baseline::westrock
-    }
-    'Linux':   {
-      include ::profile::platform::baseline::linux
     }
     default: {
       fail('Unsupported operating system!')

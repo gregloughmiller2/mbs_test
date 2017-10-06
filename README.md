@@ -1,7 +1,4 @@
-Puppet SE Demo Environment
+Puppet WestRock Example
 ==========================
 
-This is the control-repo used by the Puppet SE team.
-
-* [Consume](docs/consume.md)
-* [Contribute](docs/contribute.md)
+This is a quick example of code using roles, profiles, components and resources
