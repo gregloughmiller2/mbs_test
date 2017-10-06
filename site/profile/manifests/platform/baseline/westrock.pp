@@ -1,16 +1,13 @@
 class profile::platform::baseline::westrock {
 
   # Data Center or Domain specific
-  case $::domain {
-    'pdx.puppet.vm': {
+  case $::operatingsystemrelease {
+    '2012 R2': {
       include ::profile::platform::baseline::windows
       include ::profile::platform::baseline::winmbs
     }
-    'syd.puppet.vm':   {
-      include ::profile::platform::baseline::windows
-    }
     default: {
-      fail('Unsupported domain!')
+      include ::profile::platform::baseline::windows
     }
   }
 }
