@@ -1,2 +1,2 @@
-class abc::strings::group_policy_update {
+class abc::strings::update_group_policy {
 }
