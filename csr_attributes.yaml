@@ -1,0 +1,6 @@
+---
+extension_requests:
+  pp_datacenter: 'sydney'
+  pp_application: 'kiwi'
+  pp_apptier: 'prod'
+  pp_project: 'DB'
